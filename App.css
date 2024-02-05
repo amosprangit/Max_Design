@@ -1,0 +1,47 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.signIN div {
+  background: url("https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_1280.jpg");
+}
+
+@media screen and (max-width: 768px) {
+  /* Header */
+  nav ul li{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+  }
+  /* Home Page */
+  main {
+    padding: 0px;
+    margin: 0px;
+  }
+  section {
+    display: inline-block;
+    z-index: 99;
+    image-rendering: crisp-edges;
+  }
+  /* About Page */
+  .about {
+    overflow: hidden;
+  }
+  /* Design Page */
+  .design {
+    width: 100%;
+  }
+  /* SignIn Page */
+  .signIN div {
+    width: 100%;
+  }
+  /* Footer Page */
+  footer {
+    width: 100%;
+    margin-left: 0rem;
+    padding: 0px;
+    border-radius: 0px;
+  }
+}
